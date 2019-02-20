@@ -1,4 +1,6 @@
 # Handwritten Text Recognition with TensorFlow
+Based on the Github repository at https://github.com/githubharald/SimpleHTR.
+Go check it out!
 
 Handwritten Text Recognition (HTR) system implemented with TensorFlow (TF) and trained on the IAM off-line HTR dataset.
 This Neural Network (NN) model recognizes the text contained in the images of segmented words as shown in the illustration below.
