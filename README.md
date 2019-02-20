@@ -2,6 +2,30 @@
 Based on the Github repository at https://github.com/githubharald/SimpleHTR.
 Go check it out!
 
+## Requirements
+<hr>
+<ul>
+  <li>absl-py==0.7.0<br>
+  <li>astor==0.7.1<br>
+  <li>editdistance==0.5.2<br>
+  <li>gast==0.2.2<br>
+  <li>grpcio==1.18.0<br>
+  <li>h5py==2.9.0<br>
+  <li>Keras-Applications==1.0.7<br>
+  <li>Keras-Preprocessing==1.0.8<br>
+  <li>Markdown==3.0.1<br>
+  <li>numpy==1.16.1<br>
+  <li>opencv-python==4.0.0.21<br>
+  <li>pkg-resources==0.0.0<br>
+  <li>protobuf==3.6.1<br>
+  <li>six==1.12.0<br>
+  <li>tensorboard==1.12.2<br>
+  <li>tensorflow==1.12.0<br>
+  <li>termcolor==1.1.0<br>
+  <li>Werkzeug==0.14.1<br>
+</ul>    
+<hr>
+
 Handwritten Text Recognition (HTR) system implemented with TensorFlow (TF) and trained on the IAM off-line HTR dataset.
 This Neural Network (NN) model recognizes the text contained in the images of segmented words as shown in the illustration below.
 As these word-images are smaller than images of complete text-lines, the NN can be kept small and training on the CPU is feasible.
